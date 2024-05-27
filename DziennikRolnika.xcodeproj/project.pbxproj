@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20155B62A90FBA9007D4D3A /* cow.png in Resources */ = {isa = PBXBuildFile; fileRef = C20155B52A90FBA9007D4D3A /* cow.png */; };
+		C20155C02A91264C007D4D3A /* DziennikRolnikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20155BF2A91264C007D4D3A /* DziennikRolnikaTests.swift */; };
+		C20155C62A912659007D4D3A /* YearCalenderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20155B72A91256B007D4D3A /* YearCalenderTest.swift */; };
+		C20155C82A912877007D4D3A /* FieldsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20155C72A912877007D4D3A /* FieldsTest.swift */; };
+		C20155CA2A91299A007D4D3A /* CowsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20155C92A91299A007D4D3A /* CowsTest.swift */; };
+		C20155CC2A912C17007D4D3A /* ContentViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20155CB2A912C17007D4D3A /* ContentViewTest.swift */; };
+		C22A17012A8427510004AEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22A17002A8427510004AEA2 /* Assets.xcassets */; };
+		C22A17D22A8A07E60004AEA2 /* 389.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17C92A8A07E60004AEA2 /* 389.png */; };
+		C22A17D32A8A07E60004AEA2 /* 116.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17CA2A8A07E60004AEA2 /* 116.png */; };
+		C22A17D42A8A07E60004AEA2 /* 248.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17CB2A8A07E60004AEA2 /* 248.png */; };
+		C22A17D52A8A07E60004AEA2 /* 113.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17CC2A8A07E60004AEA2 /* 113.png */; };
+		C22A17D62A8A07E60004AEA2 /* 296.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17CD2A8A07E60004AEA2 /* 296.png */; };
+		C22A17D72A8A07E60004AEA2 /* 122.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17CE2A8A07E60004AEA2 /* 122.png */; };
+		C22A17D82A8A07E60004AEA2 /* 308.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17CF2A8A07E60004AEA2 /* 308.png */; };
+		C22A17D92A8A07E60004AEA2 /* 119.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17D02A8A07E60004AEA2 /* 119.png */; };
+		C22A17DA2A8A07E60004AEA2 /* 326.png in Resources */ = {isa = PBXBuildFile; fileRef = C22A17D12A8A07E60004AEA2 /* 326.png */; };
+		C22A17F32A8A4C220004AEA2 /* 1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17E62A8A4C210004AEA2 /* 1024.jpg */; };
+		C22A17F42A8A4C220004AEA2 /* 76.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17E72A8A4C210004AEA2 /* 76.jpg */; };
+		C22A17F52A8A4C220004AEA2 /* 60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17E82A8A4C210004AEA2 /* 60.jpg */; };
+		C22A17F62A8A4C220004AEA2 /* 58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17E92A8A4C210004AEA2 /* 58.jpg */; };
+		C22A17F72A8A4C220004AEA2 /* 167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17EA2A8A4C210004AEA2 /* 167.jpg */; };
+		C22A17F82A8A4C220004AEA2 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17EB2A8A4C210004AEA2 /* 29.jpg */; };
+		C22A17F92A8A4C220004AEA2 /* 120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17EC2A8A4C210004AEA2 /* 120.jpg */; };
+		C22A17FA2A8A4C220004AEA2 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17ED2A8A4C210004AEA2 /* 20.jpg */; };
+		C22A17FB2A8A4C220004AEA2 /* 180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17EE2A8A4C210004AEA2 /* 180.jpg */; };
+		C22A17FC2A8A4C220004AEA2 /* 80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17EF2A8A4C210004AEA2 /* 80.jpg */; };
+		C22A17FD2A8A4C220004AEA2 /* 40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17F02A8A4C210004AEA2 /* 40.jpg */; };
+		C22A17FE2A8A4C220004AEA2 /* 87.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17F12A8A4C210004AEA2 /* 87.jpg */; };
+		C22A17FF2A8A4C220004AEA2 /* 152.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C22A17F22A8A4C210004AEA2 /* 152.jpg */; };
+		C27743F82A8FF85A008BF497 /* Cows.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27743F72A8FF85A008BF497 /* Cows.swift */; };
+		C27A8F5E2A780A0F00F1FD3F /* DziennikRolnikaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A8F5D2A780A0F00F1FD3F /* DziennikRolnikaApp.swift */; };
+		C27A8F602A780A0F00F1FD3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A8F5F2A780A0F00F1FD3F /* ContentView.swift */; };
+		C27A8F652A780A1200F1FD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A8F642A780A1200F1FD3F /* Preview Assets.xcassets */; };
+		C27A8F6E2A78314400F1FD3F /* Fields.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A8F6D2A78314400F1FD3F /* Fields.swift */; };
+		C27A8F702A78314F00F1FD3F /* YearCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A8F6F2A78314F00F1FD3F /* YearCalender.swift */; };
+		C27A8F7A2A785F5100F1FD3F /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A8F792A785F5100F1FD3F /* WeatherService.swift */; };
+		C27A8F7E2A7E777600F1FD3F /* SpecialDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A8F7D2A7E777600F1FD3F /* SpecialDays.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20155C12A91264C007D4D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27A8F522A780A0F00F1FD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27A8F592A780A0F00F1FD3F;
+			remoteInfo = DziennikRolnika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20155B52A90FBA9007D4D3A /* cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cow.png; path = DziennikRolnika/cow.png; sourceTree = SOURCE_ROOT; };
+		C20155B72A91256B007D4D3A /* YearCalenderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCalenderTest.swift; sourceTree = "<group>"; };
+		C20155BD2A91264C007D4D3A /* DziennikRolnikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DziennikRolnikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20155BF2A91264C007D4D3A /* DziennikRolnikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DziennikRolnikaTests.swift; sourceTree = "<group>"; };
+		C20155C72A912877007D4D3A /* FieldsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldsTest.swift; sourceTree = "<group>"; };
+		C20155C92A91299A007D4D3A /* CowsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsTest.swift; sourceTree = "<group>"; };
+		C20155CB2A912C17007D4D3A /* ContentViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTest.swift; sourceTree = "<group>"; };
+		C22A17002A8427510004AEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22A17C92A8A07E60004AEA2 /* 389.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 389.png; sourceTree = "<group>"; };
+		C22A17CA2A8A07E60004AEA2 /* 116.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 116.png; sourceTree = "<group>"; };
+		C22A17CB2A8A07E60004AEA2 /* 248.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 248.png; sourceTree = "<group>"; };
+		C22A17CC2A8A07E60004AEA2 /* 113.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 113.png; sourceTree = "<group>"; };
+		C22A17CD2A8A07E60004AEA2 /* 296.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 296.png; sourceTree = "<group>"; };
+		C22A17CE2A8A07E60004AEA2 /* 122.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 122.png; sourceTree = "<group>"; };
+		C22A17CF2A8A07E60004AEA2 /* 308.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 308.png; sourceTree = "<group>"; };
+		C22A17D02A8A07E60004AEA2 /* 119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 119.png; sourceTree = "<group>"; };
+		C22A17D12A8A07E60004AEA2 /* 326.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 326.png; sourceTree = "<group>"; };
+		C22A17E62A8A4C210004AEA2 /* 1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1024.jpg; sourceTree = "<group>"; };
+		C22A17E72A8A4C210004AEA2 /* 76.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76.jpg; sourceTree = "<group>"; };
+		C22A17E82A8A4C210004AEA2 /* 60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 60.jpg; sourceTree = "<group>"; };
+		C22A17E92A8A4C210004AEA2 /* 58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 58.jpg; sourceTree = "<group>"; };
+		C22A17EA2A8A4C210004AEA2 /* 167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 167.jpg; sourceTree = "<group>"; };
+		C22A17EB2A8A4C210004AEA2 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		C22A17EC2A8A4C210004AEA2 /* 120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 120.jpg; sourceTree = "<group>"; };
+		C22A17ED2A8A4C210004AEA2 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		C22A17EE2A8A4C210004AEA2 /* 180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 180.jpg; sourceTree = "<group>"; };
+		C22A17EF2A8A4C210004AEA2 /* 80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 80.jpg; sourceTree = "<group>"; };
+		C22A17F02A8A4C210004AEA2 /* 40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 40.jpg; sourceTree = "<group>"; };
+		C22A17F12A8A4C210004AEA2 /* 87.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 87.jpg; sourceTree = "<group>"; };
+		C22A17F22A8A4C210004AEA2 /* 152.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 152.jpg; sourceTree = "<group>"; };
+		C27743F72A8FF85A008BF497 /* Cows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cows.swift; sourceTree = "<group>"; };
+		C27A8F5A2A780A0F00F1FD3F /* DziennikRolnika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DziennikRolnika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A8F5D2A780A0F00F1FD3F /* DziennikRolnikaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DziennikRolnikaApp.swift; sourceTree = "<group>"; };
+		C27A8F5F2A780A0F00F1FD3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C27A8F642A780A1200F1FD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C27A8F6D2A78314400F1FD3F /* Fields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fields.swift; sourceTree = "<group>"; };
+		C27A8F6F2A78314F00F1FD3F /* YearCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCalender.swift; sourceTree = "<group>"; };
+		C27A8F792A785F5100F1FD3F /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		C27A8F7D2A7E777600F1FD3F /* SpecialDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialDays.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20155BA2A91264C007D4D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A8F572A780A0F00F1FD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20155BE2A91264C007D4D3A /* DziennikRolnikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C20155BF2A91264C007D4D3A /* DziennikRolnikaTests.swift */,
+				C20155B72A91256B007D4D3A /* YearCalenderTest.swift */,
+				C20155C72A912877007D4D3A /* FieldsTest.swift */,
+				C20155C92A91299A007D4D3A /* CowsTest.swift */,
+				C20155CB2A912C17007D4D3A /* ContentViewTest.swift */,
+			);
+			path = DziennikRolnikaTests;
+			sourceTree = "<group>";
+		};
+		C22A17C82A8A07E60004AEA2 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				C22A17C92A8A07E60004AEA2 /* 389.png */,
+				C22A17CA2A8A07E60004AEA2 /* 116.png */,
+				C22A17CB2A8A07E60004AEA2 /* 248.png */,
+				C22A17CC2A8A07E60004AEA2 /* 113.png */,
+				C22A17CD2A8A07E60004AEA2 /* 296.png */,
+				C22A17CE2A8A07E60004AEA2 /* 122.png */,
+				C22A17CF2A8A07E60004AEA2 /* 308.png */,
+				C22A17D02A8A07E60004AEA2 /* 119.png */,
+				C22A17D12A8A07E60004AEA2 /* 326.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		C22A17E52A8A4C210004AEA2 /* tractors */ = {
+			isa = PBXGroup;
+			children = (
+				C22A17E62A8A4C210004AEA2 /* 1024.jpg */,
+				C22A17E72A8A4C210004AEA2 /* 76.jpg */,
+				C22A17E82A8A4C210004AEA2 /* 60.jpg */,
+				C22A17E92A8A4C210004AEA2 /* 58.jpg */,
+				C22A17EA2A8A4C210004AEA2 /* 167.jpg */,
+				C22A17EB2A8A4C210004AEA2 /* 29.jpg */,
+				C22A17EC2A8A4C210004AEA2 /* 120.jpg */,
+				C22A17ED2A8A4C210004AEA2 /* 20.jpg */,
+				C22A17EE2A8A4C210004AEA2 /* 180.jpg */,
+				C22A17EF2A8A4C210004AEA2 /* 80.jpg */,
+				C22A17F02A8A4C210004AEA2 /* 40.jpg */,
+				C22A17F12A8A4C210004AEA2 /* 87.jpg */,
+				C22A17F22A8A4C210004AEA2 /* 152.jpg */,
+			);
+			path = tractors;
+			sourceTree = "<group>";
+		};
+		C27A8F512A780A0F00F1FD3F = {
+			isa = PBXGroup;
+			children = (
+				C27A8F5C2A780A0F00F1FD3F /* DziennikRolnika */,
+				C20155BE2A91264C007D4D3A /* DziennikRolnikaTests */,
+				C27A8F5B2A780A0F00F1FD3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27A8F5B2A780A0F00F1FD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27A8F5A2A780A0F00F1FD3F /* DziennikRolnika.app */,
+				C20155BD2A91264C007D4D3A /* DziennikRolnikaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27A8F5C2A780A0F00F1FD3F /* DziennikRolnika */ = {
+			isa = PBXGroup;
+			children = (
+				C27A8F5D2A780A0F00F1FD3F /* DziennikRolnikaApp.swift */,
+				C27743F72A8FF85A008BF497 /* Cows.swift */,
+				C27A8F5F2A780A0F00F1FD3F /* ContentView.swift */,
+				C27A8F632A780A1200F1FD3F /* Preview Content */,
+				C27A8F6D2A78314400F1FD3F /* Fields.swift */,
+				C27A8F6F2A78314F00F1FD3F /* YearCalender.swift */,
+				C27A8F792A785F5100F1FD3F /* WeatherService.swift */,
+				C27A8F7D2A7E777600F1FD3F /* SpecialDays.swift */,
+				C22A17002A8427510004AEA2 /* Assets.xcassets */,
+				C20155B52A90FBA9007D4D3A /* cow.png */,
+				C22A17E52A8A4C210004AEA2 /* tractors */,
+				C22A17C82A8A07E60004AEA2 /* icons */,
+			);
+			path = DziennikRolnika;
+			sourceTree = "<group>";
+		};
+		C27A8F632A780A1200F1FD3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C27A8F642A780A1200F1FD3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20155BC2A91264C007D4D3A /* DziennikRolnikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20155C32A91264C007D4D3A /* Build configuration list for PBXNativeTarget "DziennikRolnikaTests" */;
+			buildPhases = (
+				C20155B92A91264C007D4D3A /* Sources */,
+				C20155BA2A91264C007D4D3A /* Frameworks */,
+				C20155BB2A91264C007D4D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20155C22A91264C007D4D3A /* PBXTargetDependency */,
+			);
+			name = DziennikRolnikaTests;
+			productName = DziennikRolnikaTests;
+			productReference = C20155BD2A91264C007D4D3A /* DziennikRolnikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C27A8F592A780A0F00F1FD3F /* DziennikRolnika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A8F682A780A1200F1FD3F /* Build configuration list for PBXNativeTarget "DziennikRolnika" */;
+			buildPhases = (
+				C27A8F562A780A0F00F1FD3F /* Sources */,
+				C27A8F572A780A0F00F1FD3F /* Frameworks */,
+				C27A8F582A780A0F00F1FD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DziennikRolnika;
+			productName = DziennikRolnika;
+			productReference = C27A8F5A2A780A0F00F1FD3F /* DziennikRolnika.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27A8F522A780A0F00F1FD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C20155BC2A91264C007D4D3A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C27A8F592A780A0F00F1FD3F;
+					};
+					C27A8F592A780A0F00F1FD3F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = C27A8F552A780A0F00F1FD3F /* Build configuration list for PBXProject "DziennikRolnika" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27A8F512A780A0F00F1FD3F;
+			productRefGroup = C27A8F5B2A780A0F00F1FD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27A8F592A780A0F00F1FD3F /* DziennikRolnika */,
+				C20155BC2A91264C007D4D3A /* DziennikRolnikaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20155BB2A91264C007D4D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A8F582A780A0F00F1FD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22A17F62A8A4C220004AEA2 /* 58.jpg in Resources */,
+				C22A17F42A8A4C220004AEA2 /* 76.jpg in Resources */,
+				C22A17DA2A8A07E60004AEA2 /* 326.png in Resources */,
+				C22A17D22A8A07E60004AEA2 /* 389.png in Resources */,
+				C22A17F72A8A4C220004AEA2 /* 167.jpg in Resources */,
+				C22A17F52A8A4C220004AEA2 /* 60.jpg in Resources */,
+				C22A17FF2A8A4C220004AEA2 /* 152.jpg in Resources */,
+				C22A17F32A8A4C220004AEA2 /* 1024.jpg in Resources */,
+				C22A17D62A8A07E60004AEA2 /* 296.png in Resources */,
+				C22A17FC2A8A4C220004AEA2 /* 80.jpg in Resources */,
+				C22A17D42A8A07E60004AEA2 /* 248.png in Resources */,
+				C22A17D82A8A07E60004AEA2 /* 308.png in Resources */,
+				C22A17FD2A8A4C220004AEA2 /* 40.jpg in Resources */,
+				C22A17012A8427510004AEA2 /* Assets.xcassets in Resources */,
+				C20155B62A90FBA9007D4D3A /* cow.png in Resources */,
+				C22A17D92A8A07E60004AEA2 /* 119.png in Resources */,
+				C22A17F82A8A4C220004AEA2 /* 29.jpg in Resources */,
+				C22A17D52A8A07E60004AEA2 /* 113.png in Resources */,
+				C22A17D32A8A07E60004AEA2 /* 116.png in Resources */,
+				C22A17FB2A8A4C220004AEA2 /* 180.jpg in Resources */,
+				C22A17F92A8A4C220004AEA2 /* 120.jpg in Resources */,
+				C27A8F652A780A1200F1FD3F /* Preview Assets.xcassets in Resources */,
+				C22A17D72A8A07E60004AEA2 /* 122.png in Resources */,
+				C22A17FE2A8A4C220004AEA2 /* 87.jpg in Resources */,
+				C22A17FA2A8A4C220004AEA2 /* 20.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20155B92A91264C007D4D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20155CC2A912C17007D4D3A /* ContentViewTest.swift in Sources */,
+				C20155C62A912659007D4D3A /* YearCalenderTest.swift in Sources */,
+				C20155CA2A91299A007D4D3A /* CowsTest.swift in Sources */,
+				C20155C82A912877007D4D3A /* FieldsTest.swift in Sources */,
+				C20155C02A91264C007D4D3A /* DziennikRolnikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A8F562A780A0F00F1FD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A8F602A780A0F00F1FD3F /* ContentView.swift in Sources */,
+				C27A8F702A78314F00F1FD3F /* YearCalender.swift in Sources */,
+				C27A8F5E2A780A0F00F1FD3F /* DziennikRolnikaApp.swift in Sources */,
+				C27743F82A8FF85A008BF497 /* Cows.swift in Sources */,
+				C27A8F7E2A7E777600F1FD3F /* SpecialDays.swift in Sources */,
+				C27A8F6E2A78314400F1FD3F /* Fields.swift in Sources */,
+				C27A8F7A2A785F5100F1FD3F /* WeatherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20155C22A91264C007D4D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27A8F592A780A0F00F1FD3F /* DziennikRolnika */;
+			targetProxy = C20155C12A91264C007D4D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C20155C42A91264C007D4D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4Q8HHX655;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paulinaguzior.DziennikRolnikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DziennikRolnika.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DziennikRolnika";
+			};
+			name = Debug;
+		};
+		C20155C52A91264C007D4D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4Q8HHX655;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paulinaguzior.DziennikRolnikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DziennikRolnika.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DziennikRolnika";
+			};
+			name = Release;
+		};
+		C27A8F662A780A1200F1FD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C27A8F672A780A1200F1FD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27A8F692A780A1200F1FD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon1;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DziennikRolnika/Preview Content\"";
+				DEVELOPMENT_TEAM = V4Q8HHX655;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paulinaguzior.DziennikRolnika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C27A8F6A2A780A1200F1FD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon1;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DziennikRolnika/Preview Content\"";
+				DEVELOPMENT_TEAM = V4Q8HHX655;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paulinaguzior.DziennikRolnika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20155C32A91264C007D4D3A /* Build configuration list for PBXNativeTarget "DziennikRolnikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20155C42A91264C007D4D3A /* Debug */,
+				C20155C52A91264C007D4D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A8F552A780A0F00F1FD3F /* Build configuration list for PBXProject "DziennikRolnika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A8F662A780A1200F1FD3F /* Debug */,
+				C27A8F672A780A1200F1FD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A8F682A780A1200F1FD3F /* Build configuration list for PBXNativeTarget "DziennikRolnika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A8F692A780A1200F1FD3F /* Debug */,
+				C27A8F6A2A780A1200F1FD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27A8F522A780A0F00F1FD3F /* Project object */;
+}
